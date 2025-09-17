@@ -84,6 +84,7 @@ def start_game(all_chance):
                 
             else :
                  # Correct guess
+                chance -=1
                 print (f"Congratulations! You guessed the correct number in {all_chance-chance} attempts.")
                 break
 
@@ -101,4 +102,5 @@ def start_game(all_chance):
         
 # Call the main function to start the game
 game()
+
 
